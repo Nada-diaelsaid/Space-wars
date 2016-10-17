@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Download\Lab4\Lab4\GetGlut.h" />
+    <ClInclude Include="E:\Download\Lab4\Lab4\Sleep.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\DisplayList.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\GetGlut.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\GLUT.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Material.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibrary.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibraryManager.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\ObjModel.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\ObjStringParsing.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\SpriteFont.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Texture.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\TextureBmp.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\TextureManager.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Vector2.h" />
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Vector3.h" />
+    <ClInclude Include="objloader.h" />
+    <ClInclude Include="reader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Download\Lab4\Lab4\main4.cpp" />
+    <ClCompile Include="E:\Download\Lab4\Lab4\Sleep.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\DisplayList.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Material.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibrary.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibraryManager.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\ObjModel.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\ObjStringParsing.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\SpriteFont.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Texture.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\TextureBmp.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\TextureManager.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Vector2.cpp" />
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Vector3.cpp" />
+    <ClCompile Include="main4.cpp" />
+    <ClCompile Include="objloader.cpp" />
+    <ClCompile Include="reader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="E:\Download\ObjLibrary\ObjLibrary\ObjLibrary-development-log.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F5CF37D6-BD0B-49AC-95EB-73178B3081AD}</ProjectGuid>
+    <RootNamespace>Project5</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\GL;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>C:\Users\Nona\Documents\visual studio 2012\Projects\Project5\Project5\png;C:\Users\Nona\Documents\visual studio 2012\Projects\Project5\Project5\zlib;C:\Users\Nona\Documents\Visual Studio 2012\Projects\Project5\SDL2-2.0.3\include;C:\Users\Nona\Documents\Visual Studio 2012\Projects\Project5\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glut32.lib;glew32.lib;opengl32.lib;SDL2.lib;SDL2main.lib;ComCtl32.Lib;ComDlg32.Lib;irrKlang.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

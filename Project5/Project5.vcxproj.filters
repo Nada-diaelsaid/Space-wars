@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ObjLibrary">
+      <UniqueIdentifier>{286fe8d6-20c2-42b9-8b60-9311d495e2b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="objloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\Lab4\Lab4\GetGlut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\Lab4\Lab4\Sleep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\DisplayList.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\GetGlut.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\GLUT.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Material.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibrary.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibraryManager.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\ObjStringParsing.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\SpriteFont.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Texture.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\TextureBmp.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\TextureManager.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Vector2.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\Vector3.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Download\ObjLibrary\ObjLibrary\ObjModel.h">
+      <Filter>ObjLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="objloader.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reader.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\Lab4\Lab4\Sleep.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\DisplayList.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Material.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibrary.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\MtlLibraryManager.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\ObjModel.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\ObjStringParsing.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\SpriteFont.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Texture.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\TextureBmp.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\TextureManager.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Vector2.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\ObjLibrary\ObjLibrary\Vector3.cpp">
+      <Filter>ObjLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Download\Lab4\Lab4\main4.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="E:\Download\ObjLibrary\ObjLibrary\ObjLibrary-development-log.txt">
+      <Filter>ObjLibrary</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
